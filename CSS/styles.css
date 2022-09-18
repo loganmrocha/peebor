@@ -1,5 +1,9 @@
+body {
+    background-color: black;
+}
 h1 {
-    color: blue;
+    color: darkblue;
+    -webkit-text-stroke: 1px #fff;
     text-align: center;
 }
 
@@ -14,6 +18,11 @@ p {
 }
 
 li {
-    color:darkblue;
+    color:blue;
+    list-style-position: inside;
     text-align: center;
+}
+
+img{
+    text-align: center
 }
