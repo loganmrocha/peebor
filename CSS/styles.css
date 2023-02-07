@@ -1,5 +1,11 @@
 body {
     background-color: black;
+    
+}
+
+figcaption{
+    color: cornflowerblue;
+    text-align: center;
 }
 h1 {
     color: darkblue;
@@ -12,17 +18,21 @@ h2 {
     text-align: center;
 }
 
+h3{
+    color:royalblue;
+}
+
 p {
     color:cornflowerblue;
     text-align: center;
 }
 
-li {
+ul {
     color:blue;
     list-style-position: inside;
     text-align: center;
 }
 
-img{
-    text-align: center
+nav{
+    text-align:center;
 }
