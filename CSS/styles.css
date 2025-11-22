@@ -36,3 +36,18 @@ ul {
 nav{
     text-align:center;
 }
+
+/* Responsive image helper: limits image width to container and keeps aspect ratio */
+.responsive-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-wrap {
+    width: 90%;
+    max-width: 900px; /* prevents enormous images on very large screens */
+    margin: 0 auto 1rem auto;
+}
