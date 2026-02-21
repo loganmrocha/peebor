@@ -40,14 +40,18 @@ nav{
 /* Responsive image helper: limits image width to container and keeps aspect ratio */
 .responsive-photo {
     max-width: 100%;
+    max-height: 60vh; /* Restricts the height to 60% of the viewport */
+    width: auto;
     height: auto;
+    object-fit: contain; /* Ensures the aspect ratio remains correct */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px; /* Adds a clean border radius */
 }
 
 .photo-wrap {
     width: 90%;
-    max-width: 900px; /* prevents enormous images on very large screens */
-    margin: 0 auto 1rem auto;
+    max-width: 600px; /* Reduced from 900px so pictures don't feel too enormous */
+    margin: 2rem auto; /* Added extra margins for breathing room */
 }
